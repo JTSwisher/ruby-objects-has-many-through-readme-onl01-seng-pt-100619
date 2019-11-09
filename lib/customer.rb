@@ -23,4 +23,9 @@ class Customer
     end 
   end 
   
+  def waiters 
+    
+    
+  end 
+  
 end
