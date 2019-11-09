@@ -17,5 +17,8 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end 
   
+  def meals 
+    self.new_meal.count
+  end 
   
 end
